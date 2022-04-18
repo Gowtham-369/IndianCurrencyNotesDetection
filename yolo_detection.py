@@ -45,8 +45,8 @@ class CurrencyNotesDetection:
         :return: Customed Trained Pytorch model.
         """
         # Custom Model
-        # model = torch.hub.load('ultralytics/yolov5', 'custom', path='path/to/best.pt')  # default
-        # model = torch.hub.load('ultralytics/yolov5','custom', path=model_name, force_reload=True)
+        # model = torch.hub.load('ultralytics/yolov5', 'custom', path='path/to/best.pt',force_reload=True)  # default
+        # model = torch.hub.load('ultralytics/yolov5','custom', path=model_name, force_reload=True, device='cpu')
         # model = torch.hub.load('/home/gowtham/MajorProject/yolov5_custom/yolov5', 'custom', path=model_name, source='local')  # local repo
         model = torch.hub.load('./yolov5', 'custom', path=model_name, source='local')  # local repo
         

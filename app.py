@@ -89,7 +89,8 @@ if __name__ == '__main__':
 	# app.run(debug=True) 
     # when run using above command change localhost/5000 default port in index.js file
     # In order to work for any device connected to wifi/LAN same network, use below
-    app.run(host="0.0.0.0", port=8080, debug=False, threaded=True)
+    app.run(host="0.0.0.0", port=8080, debug=False, threaded=False)
+    # make threaded=True for concurrent users
     # ip = "0.0.0.0" matches all ip address, and server listens to all ip address requests
     # below method is for devices connected to Wifi/ LAN
     # using ifconfig/ipconfig cmd in terminal find ip
