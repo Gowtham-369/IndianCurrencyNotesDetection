@@ -1,0 +1,191 @@
+html {
+  text-align: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&family=Roboto&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #151515;
+  color: white;
+}
+
+.app-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* .app-link {
+  color: #61dafb;
+} */
+
+.title-wrap{
+  font-weight: 800;
+  margin: 50px;
+  font-size: 50px;
+  color: rgb(195, 255, 0);
+}
+
+p{
+  font-size: 30px;
+  margin: 20px;
+}
+
+
+/* .pre-img{
+  height: 360px;
+  width: 360px;
+} 
+*/
+
+input[type=file]{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 20px;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  margin: 40px 40px;
+  border-radius: 13px;
+  cursor: pointer;
+  /* display: none; */
+}
+
+/* 
+#pre{
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  margin: 10px 40px;
+} 
+*/
+
+
+
+#sendbutton{
+  height: 50px;
+  width: 200px;
+  background-color: rgb(204, 32, 86);
+  border: 0px;
+  border-radius: 13px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  margin: 16px 16px;
+}
+#sendbutton:hover{
+  background-color: rgb(6, 240, 209);
+  color: black;
+}
+
+/*Progress Bar*/
+
+.loading{
+    text-align: center;
+    display:none;
+    margin-bottom: 10px;
+}
+.percent{
+    color: #999;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 15px;
+}
+.text{
+    position: relative;
+    top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 21px;  
+    display: none;
+}
+.text-blink{
+    animation: blink 1s ease-in-out .1s;
+}
+@keyframes blink{
+    0%{
+        opacity: 1;
+    }
+    25%{
+        opacity: 0.25;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    75%{
+        opacity: 0.75;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.progress-bar{
+    width: 365px;
+    /*360 is the progess length*/
+    height: 21px;
+    background-color: #111;
+    border-radius: 13px;
+    padding: 3px;
+    box-sizing: border-box;
+    margin: auto 10px;
+}
+.progress{
+    width: 200px;
+    height: 15px;
+    background-color: #f60d54;
+    border-radius: 13px;
+}
+
+/*Send Button*/
+
+.voiceoutputbtn-1,.voiceoutputbtn-2{
+  display: none;
+  width: 200px;
+  height: 50px;
+  background-color: blueviolet;
+  color: rgb(253, 250, 250);
+  cursor: pointer;
+  border-radius: 13px;
+  border: 0px;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 20px 0px;
+  /* visibility: hidden; */
+}
+
+/*Responsiveness*/
+
+@media screen and (max-width:700px){
+  .title-wrap{
+    font-size: 25px !important;
+  }
+}
+@media screen and (max-width:1050px){
+  .title-wrap{
+    font-size: 35px;
+  }
+}
+
