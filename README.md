@@ -48,18 +48,19 @@ Boom! :star2: :joy: Go to webpage directed from localhost and run your app.
 
 ---
 
-## Sample Results
+## Sample App Results
 
 
-<img src="./../app_results/MobileView.jpg" alt="Mobile Phone View of App" display="block"
+<img src="./app_results/MobileView.jpg" alt="Mobile Phone View of App" display="block" width="320" height="600"
 />
 
-<img src="./../app_results/DesltopView.png" alt="Desktop View of App" display="block"
+<img src="./app_results/DesktopView.png" alt="Desktop View of App" display="block"
 />
 
-![Mobile Phone View](./../app_results/Mobile20.jpg "Detected 20 Rupees in Mobile Phone")
+<img src="./app_results/Mobile20.jpg" alt="Detected 20 Rupees in Mobile Phone" display="block" width="320" height="600"
+/>
 
-![Mobile Phone View](./../app_results/Desktop100.png "Detected 100 Rupees in Desktop")
+![Detection in Desktop](./app_results/Desktop100.png "Detected 100 Rupees in Desktop")
 
 
 
