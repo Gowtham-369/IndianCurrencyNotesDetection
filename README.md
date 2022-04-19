@@ -10,7 +10,7 @@
 
 - Our App also serves the tourists and other foreigners in India to know the currency they possess which also helps them from fraudsters.
 
-- Our app also provides **audio outputs** which helps Visually Impaired people can get assistance from this app.
+- Our app also provides **audio outputs** which helps Visually Impaired people.
 ---
 
 # Local machine setup for working application
