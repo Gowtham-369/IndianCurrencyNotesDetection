@@ -24,7 +24,7 @@
 - For Windows users install torch from [here](https://pytorch.org/) and 
 configure it using this [link](https://www.geeksforgeeks.org/install-pytorch-on-windows/).
 - Instead I recommend to use `wsl(Windows Subsytem For Linux)`. Find [here](https://docs.microsoft.com/en-us/windows/wsl/install) for installation which provides Linux CLI.
-- For Linux OS, it is installed in command line during installation using `requiremts.txt`
+- For Linux OS, it is installed in command line during installation using `requirements.txt`
 ---
 ## Steps
 
@@ -35,7 +35,7 @@ within terminal/CMD
 3. Create a virtual env for this project
 using [this link](https://docs.python.org/3/tutorial/venv.html) and [this link](https://docs.python.org/3/library/venv.html) and activate virtual environment for this project
 4. Open terminal/CMD in current working directory
-5. Now, Install dependencies using `pip intall -r requirements.txt` .
+5. Now, Install dependencies using `pip install -r requirements.txt` .
 <mark>Ensure successfull installation of all dependencies</mark>
 
 6. Now, type `ipconfig/ifconfig` in `windows/linux` respectively. Copy and paste ipv4 address in "\_\_main\_\_" section in [line number 92](./app.py)  in app.py file and also update the url value in [line number 19](./static/index.js) of ajax call in index.js file
@@ -44,7 +44,7 @@ using [this link](https://docs.python.org/3/tutorial/venv.html) and [this link](
 8. Now, flask localserver opens up in console, click it.
 Boom! :star2: :joy: Go to webpage directed from localhost and run your app.
 
-9. *To use web app on your mobile, connect the mobile to same wifi/ethernet to which Computer is connected and open the same url in Modern Browsers like Chrome/FireFox/MSEdge/Safari.*
+9. *To use web app on your mobile, connect the mobile to the same wifi/ethernet to which Computer is connected and open the same url in Modern Browsers like Chrome/FireFox/MSEdge/Safari.*
 
 ---
 
