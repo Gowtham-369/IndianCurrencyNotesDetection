@@ -38,7 +38,7 @@ using [this link](https://docs.python.org/3/tutorial/venv.html) and [this link](
 5. Now, Install dependencies using `pip install -r requirements.txt` .
 <mark>Ensure successfull installation of all dependencies</mark>
 
-6. Now, type `ipconfig/ifconfig` in `windows cmd/linux terminal` respectively. Copy and paste ipv4 address in "\_\_main\_\_" section in [line number 92](./app.py)  in app.py file and also update the url value in [line number 19](./static/index.js) of ajax call in index.js file
+6. Now, type `ipconfig/ifconfig` in `windows cmd/linux terminal` respectively. Copy and paste ipv4 address in the url value in [line number 19](./static/index.js) of ajax call in index.js file
  
 7. Run `python3 app.py` in terminal/cmd
 8. Now, flask localserver opens up in console, click it.
