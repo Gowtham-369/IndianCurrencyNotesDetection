@@ -52,7 +52,7 @@ Boom! :star2: :joy: Go to webpage directed from localhost and run your app.
 ---
 ## For tweaking voices for speech out buttons.
 - Open Devtools in any Browser and Go to Console.
-- Type and Run`speechSynthesis.getVoices()`
+- Type and Run `speechSynthesis.getVoices()`
 - Keep the required id values in [line numbers 58 and 64](./static/index.js) in index.js file
 ---
 
