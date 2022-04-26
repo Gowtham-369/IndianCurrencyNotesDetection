@@ -47,6 +47,14 @@ Boom! :star2: :joy: Go to webpage directed from localhost and run your app.
 9. *To use web app on your mobile, connect the mobile to the same wifi/ethernet to which Computer is connected and open the same url in Modern Browsers like Chrome/FireFox/MSEdge/Safari.*
 
 ---
+## For Accurate and Clear Voice Outputs
+- Use Chrome/Edge/FireFox Browsers
+---
+## For tweaking voices for speech out buttons.
+- Open Devtools in any Browser and Go to Console.
+- Type and Run`speechSynthesis.getVoices()`
+- Keep the required id values in [line numbers 58 and 64](./static/index.js) in index.js file
+---
 
 ## Sample App Results
 
