@@ -55,9 +55,11 @@ Boom! :star2: :joy: Go to webpage directed from localhost and run your app.
 - Type and Run `speechSynthesis.getVoices()`
 - Keep the required id values in [line numbers 58 and 64](./static/index.js) in index.js file
 ---
+## For Dataset we used
+- [Kaggle link](https://www.kaggle.com/datasets/gowthamreddyuppunuri/indian-currency-notes-used-for-yolov5)
+---
 
 ## Sample App Results
-
 
 <img src="./app_results/MobileView.jpg" alt="Mobile Phone View of App" display="block" width="320" height="600"
 />
@@ -69,12 +71,3 @@ Boom! :star2: :joy: Go to webpage directed from localhost and run your app.
 />
 
 ![Detection in Desktop](./app_results/Desktop100.png "Detected 100 Rupees in Desktop")
-
-
-
-
-
-
-
-
-
